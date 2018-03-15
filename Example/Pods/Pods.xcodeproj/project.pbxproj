@@ -18,6 +18,8 @@
 		B77237FBC0671F812808AC0E61172828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E8D49A402058CC4300799706 /* ssModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D49A3E2058CC4300799706 /* ssModel.h */; };
 		E8D49A412058CC4300799706 /* ssModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D49A3F2058CC4300799706 /* ssModel.m */; };
+		E8D49A66205A18C200799706 /* aaModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D49A64205A18C200799706 /* aaModel.h */; };
+		E8D49A67205A18C200799706 /* aaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D49A65205A18C200799706 /* aaModel.m */; };
 		EC94738830E7B660F0D01913C24657A6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 523C872002C86582D6BC445C1B9A8117 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		E7F9AE7A47D8FDFDD069564502ECA0C3 /* myLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "myLib-prefix.pch"; sourceTree = "<group>"; };
 		E8D49A3E2058CC4300799706 /* ssModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssModel.h; sourceTree = "<group>"; };
 		E8D49A3F2058CC4300799706 /* ssModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ssModel.m; sourceTree = "<group>"; };
+		E8D49A64205A18C200799706 /* aaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaModel.h; sourceTree = "<group>"; };
+		E8D49A65205A18C200799706 /* aaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +234,8 @@
 			children = (
 				E8D49A3E2058CC4300799706 /* ssModel.h */,
 				E8D49A3F2058CC4300799706 /* ssModel.m */,
+				E8D49A64205A18C200799706 /* aaModel.h */,
+				E8D49A65205A18C200799706 /* aaModel.m */,
 			);
 			name = model;
 			path = myLib/Classes/model;
@@ -252,6 +258,7 @@
 			files = (
 				E8D49A402058CC4300799706 /* ssModel.h in Headers */,
 				8DC8BCDF922A58EF5432E994AEB18687 /* myLib-umbrella.h in Headers */,
+				E8D49A66205A18C200799706 /* aaModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +361,7 @@
 				3772FE5C7C81864FC2B677CF02915291 /* myLib-dummy.m in Sources */,
 				E8D49A412058CC4300799706 /* ssModel.m in Sources */,
 				EC94738830E7B660F0D01913C24657A6 /* ReplaceMe.m in Sources */,
+				E8D49A67205A18C200799706 /* aaModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
